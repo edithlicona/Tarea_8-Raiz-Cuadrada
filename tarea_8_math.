@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <math.>
+
+int main (){
+	
+	printf("Calcule la raiz de un numero\n");
+	printf("Digite un numero: \n");
+	float num;
+	scanf("%f", &num);
+	
+	float h = 0.00001 , raiz = h;
+	
+	while(raiz*raiz < num){
+		
+		raiz + = h;
+		
+	}
+	
+	printf("\n%f",raiz);
+	printf("\n%f",sqrt(num));
+}
